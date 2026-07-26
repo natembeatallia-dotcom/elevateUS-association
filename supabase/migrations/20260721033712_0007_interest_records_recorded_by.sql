@@ -1,0 +1,1 @@
+ALTER TABLE interest_records ADD COLUMN IF NOT EXISTS recorded_by uuid REFERENCES profiles(id) ON DELETE SET NULL;

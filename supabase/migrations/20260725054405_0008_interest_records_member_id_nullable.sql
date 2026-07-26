@@ -1,0 +1,1 @@
+ALTER TABLE interest_records ALTER COLUMN member_id DROP NOT NULL;
